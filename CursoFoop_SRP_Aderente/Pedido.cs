@@ -18,6 +18,11 @@ namespace CursoFoop_SRP_Aderente
             try
             {
                 infoLogger.Info("Incluindo um pedido");
+
+                //...
+
+                infoLogger.Info("Pedido incluído");
+
                 enviaEmail.EMailFrom = "emailfrom@xyz.com";
                 enviaEmail.EMailTo = "emailto@xyz.com";
                 enviaEmail.EMailSubject = "SRP";
@@ -26,7 +31,7 @@ namespace CursoFoop_SRP_Aderente
             }
             catch (Exception ex)
             {
-                infoLogger.Info("Erro ao enviar email : " + ex.Message);
+                infoLogger.Info("Erro ao incluir pedido : " + ex.Message);
             }
         }
         public void DeletaPedido()
