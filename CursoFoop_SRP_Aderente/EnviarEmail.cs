@@ -8,6 +8,7 @@
         public string EMailBody { get; set; }
         public void Enviar()
         {
+
             //envia o email
         }
     }

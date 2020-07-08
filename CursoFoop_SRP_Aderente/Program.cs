@@ -6,7 +6,13 @@ namespace CursoFoop_SRP_Aderente
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Pedido pedido = new Pedido();
+            pedido.IncluirPedido();
+
+            pedido.DeletaPedido();
+
+            Console.ReadLine();
         }
     }
 }
