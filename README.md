@@ -1,5 +1,5 @@
 # SOLID_SRP - Single Responsability Principle
-SOLID CONCEPTS
+- SOLID CONCEPTS -
 
 O princípio da responsabilidade única declara que cada classe deve ter apenas um motivo para mudar.
 
